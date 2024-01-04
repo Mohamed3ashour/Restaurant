@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI light';
+}
+html{
+   scroll-behavior: smooth;
+
+}
+.nav{
+   background-color: rgba(0, 0, 0, .5);
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+}
+.nav ul{
+   list-style-type: none;
+   float: right;
+   margin-right: 70px;
+   font-size: 20px;
+   font-family: "Alegreya";
+}
+.nav li{
+   float: left;
+   padding: 25px 10px;
+}
+.nav li a{
+   text-decoration: none;
+   color: azure;
+}
+.home .nav img{
+   height: 54px;
+   float: left;
+   margin: 10px 0px 10px 50px;
+}
+.home{
+    text-align: center;
+    background-image: url(images/shutterstock_277750193.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center center;
+    color: azure;
+
+}
+.home .caption img{
+    margin-top: 25vh;
+    width: 30%;
+}
+
+.home button{
+    padding: 15px 30px;
+    border: none;
+    margin-top: 30px;
+}
+.btn-color{
+    background-color:rgb(237, 189, 125) ;
+}
+.home p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 230%;
+ }
+
+ .chef-photo{
+    width: 40%;
+    float: left;
+ }
+ .chef-photo img{
+    width: 100%;
+ }
+ .chef-desc{
+    width: 60%;
+    float: left;
+    text-align: center;
+    padding-top: 150px;
+ }
+ .chef-desc span{
+    font-family: 'Dancing Script', cursive;
+    color: #f2ce08;
+    font-size: 28px;
+ }
+ .chef-desc h1{
+    margin: 10px 0px 20px;
+ }
+ .chef-desc p{
+    font-size: 18px;
+    padding: 20px 60px;
+    color: #868686;
+ }
+.chef-desc button{
+    border: 2px black solid;
+    background-color:transparent;
+    padding: 10px 25px;
+    margin-top: 40px;
+}
+ .clr{
+    clear: both;
+} 
+
+.bannar{
+    height: 55vh;
+    background-image: url(images/bgs.jpg);
+    background-attachment: fixed;
+}
+ .meals{
+    text-align: center;
+    padding: 50px 0px;
+ }
+ .meal{
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+ }
+ .meal p{
+    padding: 10px 35px;
+    color: #868686;
+    
+ }
+ .meal img{
+    border-radius: 50%;
+ }
+ .line{
+    height: 2px;
+    width: 30%;
+    background-color: #868686;
+    margin: 10px auto;
+ }
+ .footerMain{
+   background-color: #403d38;
+   color: #969696;
+   padding: 25px 0px 50px 0px;
+   font-family: 'Alegreya Sans';
+    font-size: 17px;
+ }
+ .foterContainer{
+   width: 90%;
+   margin: auto;
+ }
+ .footerChild{
+   width: 25%;
+   float: left;
+   padding: 0px 15px;
+   }
+ .footerChild a{
+   text-decoration: none;
+   color: #969696;
+ }
+ .footerChild li{
+   border-bottom: 1px solid rgba(255,255,255,0.05);
+   padding: 14px 0px;
+ }
+ .footerChild ul{
+   list-style-type: none;
+ }
+ .footerChild h4{
+   color: #fff;
+   font-size: 20px;
+   font-family: "Alegreya";
+   margin: 25px 0px;
+ }
+ .footerChild p{
+   margin-top: 40px ;
+ }
+.NoBottom{
+   border:none !important;  
+}
+.webEnd{
+   text-align: center;
+   background: #353330;
+   padding-bottom: 50px;
+}
+.social{
+   width: 60px;
+   height: 60px;
+   background-color:  #969696;
+   float: left;
+   border-radius:50%;
+   margin: 10px;
+}
+.socialContainer{
+   width: 25%;
+   margin:50px auto 0px;
+   text-align: center;   
+}
+.socialContainer img{
+   width: 100%;
+   padding: 10px;
+
+}
