@@ -197,5 +197,13 @@ html{
    .meal{
       width: 50%;
    }
+   .chef-photo{
+      width: 100%;
+   }
+ 
+   .chef-desc{
+      width: 100%;
+     padding-top: 50px;
+   }
    
    }
